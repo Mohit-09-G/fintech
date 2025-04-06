@@ -1,6 +1,5 @@
 import 'package:bike_shoping_online/config/app_colors.dart';
 import 'package:bike_shoping_online/presentation/controller/home_screen/home_screen_controller.dart';
-import 'package:bike_shoping_online/presentation/screens/home_screen/widgets/btin.dart';
 import 'package:bike_shoping_online/presentation/screens/home_screen/widgets/green_container_iitems.dart';
 import 'package:bike_shoping_online/presentation/screens/home_screen/widgets/home_screen_setting.dart';
 import 'package:bike_shoping_online/presentation/screens/home_screen/widgets/horizontalslider.dart';
@@ -29,7 +28,6 @@ class _HomeScreenState extends State<HomeScreen> {
         double screenHeight = constraints.maxHeight;
 
         return Scaffold(
-          bottomNavigationBar: Btin(),
           appBar: PreferredSize(
             preferredSize: Size.fromHeight(screenHeight * 0.01),
             child: SizedBox(height: screenHeight * 0.01),

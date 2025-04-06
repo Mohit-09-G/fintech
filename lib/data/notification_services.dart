@@ -34,7 +34,7 @@ class NotificationService {
   }
 
   Future<void> showNotification(
-      {int id = 0, String? title, String? body}) async {
+      {int id = 1, String? title, String? body}) async {
     return notificationPlugin.show(id, title, body, notificationDetails());
   }
 }
